@@ -1,0 +1,19 @@
+/* SplashScreen.css */
+.splash-screen {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+  background-color: white;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 9999;
+}
+
+.splash-screen img {
+  width: 30%; /* Adjust percentage as needed */
+  max-width: 300px; /* Prevent the GIF from becoming too large */
+  height: auto; /* Maintain the aspect ratio */
+}
